@@ -1,14 +1,13 @@
-import { Navbar, Main, Product, Footer } from "../components";
+import React from 'react';
+import ProductList from '../components/Productlist';
 
-function Home() {
-  return (
-    <>
-      <Navbar />
-      <Main />
-      <Product />
-      <Footer />
-    </>
-  )
-}
+const Home = () => {
+    return (
+        <div>
+            <h1>Welcome to E-Commerce App</h1>
+            <ProductList />
+        </div>
+    );
+};
 
-export default Home
+export default Home;
